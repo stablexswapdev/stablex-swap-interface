@@ -224,14 +224,16 @@ export default function CurrencyInputPanel({
                       currency.symbol.slice(currency.symbol.length - 5, currency.symbol.length)
                     : currency?.symbol) || <TranslatedText translationId={82}>Select a currency</TranslatedText>}
                 </StyledTokenName>
-              )}
-              {!disableCurrencySelect && <StyledDropDown selected={!!currency} />}
-               <Question
+                 <Question
                 text={TranslateString(
                   130,
-                  'More about ' + currency.symbol
+                  'Learn More' 
                 )}
               /> 
+                
+              )}
+              {!disableCurrencySelect && <StyledDropDown selected={!!currency} />}
+              
             
             </Aligner>
           </CurrencySelect>
