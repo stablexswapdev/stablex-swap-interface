@@ -7,3 +7,5 @@ const Ticker = (
         <div id="coinmarketcap-widget-marquee" coins="4943,4687,3408,825" currency="USD" theme="dark" transparent="true" show-symbol-logo="true"/>
     </>
 );
+
+export default Ticker
