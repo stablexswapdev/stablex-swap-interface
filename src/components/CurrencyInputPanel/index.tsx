@@ -11,6 +11,8 @@ import { TYPE } from '../Shared'
 import { Input as NumericalInput } from '../NumericalInput'
 import { ReactComponent as DropDown } from '../../assets/images/dropdown.svg'
 
+import Question from '../../components/QuestionHelper'
+
 import { useActiveWeb3React } from '../../hooks'
 import TranslatedText from '../../components/TranslatedText'
 import { TranslateString } from '../../utils/translateTextHelpers'
@@ -224,6 +226,13 @@ export default function CurrencyInputPanel({
                 </StyledTokenName>
               )}
               {!disableCurrencySelect && <StyledDropDown selected={!!currency} />}
+               <Question
+                text={TranslateString(
+                  130,
+                  'More about ' + currency.symbol
+                )}
+              /> 
+            
             </Aligner>
           </CurrencySelect>
         </InputRow>
