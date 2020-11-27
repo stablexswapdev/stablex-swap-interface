@@ -20,7 +20,6 @@ import TradePrice from '../../components/swap/TradePrice'
 import TokenWarningModal from '../../components/TokenWarningModal'
 import SyrupWarningModal from '../../components/SyrupWarningModal'
 import ProgressSteps from '../../components/ProgressSteps'
-import Question from '../../components/QuestionHelper'
 
 import { BETTER_TRADE_LINK_THRESHOLD, INITIAL_ALLOWED_SLIPPAGE } from '../../constants'
 import { getTradeVersion, isTradeBetter } from '../../data/V1'
