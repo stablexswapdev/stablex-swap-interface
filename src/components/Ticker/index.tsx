@@ -11,7 +11,6 @@ class Ticker extends React.Component {
             </Helmet>
              <div id="coinmarketcap-widget-marquee" coins="4943,4687,3408,825" currency="USD" theme="dark" transparent="true" show-symbol-logo="true"/>
 </div>
-        </div>
     );
   }
 };
