@@ -337,6 +337,12 @@ export default function Swap() {
               otherCurrency={currencies[Field.OUTPUT]}
               id="swap-currency-input"
             />
+            <Question
+                text={TranslateString(
+                  130,
+                  'Learn more about the selected asset'
+                )}
+              />
             <AutoColumn justify="space-between">
               <AutoRow justify={isExpertMode ? 'space-between' : 'center'} style={{ padding: '0 1rem' }}>
                 <ArrowWrapper clickable>
@@ -351,12 +357,7 @@ export default function Swap() {
                     }
                   />
                 </ArrowWrapper>
-                  <Question
-                text={TranslateString(
-                  130,
-                  'Learn more about the selected asset'
-                )}
-              />
+               
                  {recipient === null ? (
                   <LinkStyledButton id="add-recipient-button" onClick={() => onChangeRecipient('')}>
                     + Add a send (optional)
