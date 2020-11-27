@@ -20,6 +20,7 @@ import TradePrice from '../../components/swap/TradePrice'
 import TokenWarningModal from '../../components/TokenWarningModal'
 import SyrupWarningModal from '../../components/SyrupWarningModal'
 import ProgressSteps from '../../components/ProgressSteps'
+import Question from '../../components/QuestionHelper'
 
 import { BETTER_TRADE_LINK_THRESHOLD, INITIAL_ALLOWED_SLIPPAGE } from '../../constants'
 import { getTradeVersion, isTradeBetter } from '../../data/V1'
@@ -350,6 +351,12 @@ export default function Swap() {
                     }
                   />
                 </ArrowWrapper>
+                  <Question
+                text={TranslateString(
+                  130,
+                  'Learn more about the selected asset'
+                )}
+              />
                  {recipient === null ? (
                   <LinkStyledButton id="add-recipient-button" onClick={() => onChangeRecipient('')}>
                     + Add a send (optional)
