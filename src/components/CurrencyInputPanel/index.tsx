@@ -226,15 +226,16 @@ export default function CurrencyInputPanel({
                 </StyledTokenName>
               )}
               {!disableCurrencySelect && <StyledDropDown selected={!!currency} />}
-                  <Question
+              
+            
+            </Aligner>
+          </CurrencySelect>
+              <Question
                 text={TranslateString(
                   130,
                   'Learn More' 
                 )}
               /> 
-            
-            </Aligner>
-          </CurrencySelect>
         </InputRow>
       </Container>
       {!disableCurrencySelect && onCurrencySelect && (
