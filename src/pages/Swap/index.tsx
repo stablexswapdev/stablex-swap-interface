@@ -337,12 +337,7 @@ export default function Swap() {
               otherCurrency={currencies[Field.OUTPUT]}
               id="swap-currency-input"
             />
-            <Question
-                text={TranslateString(
-                  130,
-                  'Learn more about the selected asset'
-                )}
-              />
+           // In Future, add the scrolling price scroll widget
             <AutoColumn justify="space-between">
               <AutoRow justify={isExpertMode ? 'space-between' : 'center'} style={{ padding: '0 1rem' }}>
                 <ArrowWrapper clickable>
