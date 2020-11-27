@@ -19,10 +19,10 @@ type ChainTokenList = {
   readonly [chainId in ChainId]: Token[]
 }
 
-// export const tDAI = new Token(ChainId.BSCTESTNET, '0xec5dcb5dbf4b114c9d0f65bccab49ec54f6a0867', 18, 'DAI', 'Dai Stablecoin')
-// export const tBUSD = new Token(ChainId.BSCTESTNET, '0xed24fc36d5ee211ea25a80239fb8c4cfd80f12ee', 18, 'BUSD', 'Binance USD')
-// export const tUSDT = new Token(ChainId.BSCTESTNET, '0x337610d27c682e347c9cd60bd4b3b107c9d34ddd', 18, 'USDT', 'Tether USD')
-// export const tUSDC = new Token(ChainId.BSCTESTNET, '0x64544969ed7ebf5f083679233325356ebe738930', 18, 'USDC', 'USD Coin')
+export const tDAI = new Token(ChainId.BSCTESTNET, '0xec5dcb5dbf4b114c9d0f65bccab49ec54f6a0867', 18, 'DAI', 'Dai Stablecoin')
+export const tBUSD = new Token(ChainId.BSCTESTNET, '0xed24fc36d5ee211ea25a80239fb8c4cfd80f12ee', 18, 'BUSD', 'Binance USD')
+export const tUSDT = new Token(ChainId.BSCTESTNET, '0x337610d27c682e347c9cd60bd4b3b107c9d34ddd', 18, 'USDT', 'Tether USD')
+export const tUSDC = new Token(ChainId.BSCTESTNET, '0x64544969ed7ebf5f083679233325356ebe738930', 18, 'USDC', 'USD Coin')
 
 export const DAI = new Token(ChainId.MAINNET, '0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3', 18, 'DAI', 'Dai Stablecoin')
 export const BUSD = new Token(ChainId.MAINNET, '0xe9e7cea3dedca5984780bafc599bd69add087d56', 18, 'BUSD', 'Binance USD')
