@@ -9,7 +9,7 @@ class Ticker extends React.Component {
             <Helmet>
                   <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinMarquee.js" />
             </Helmet>
-             <div id="coinmarketcap-widget-marquee" coins="4943,4687,3408,825" currency="USD" theme="dark" transparent="true"/>
+             <div data-id="coinmarketcap-widget-marquee" data-coins="4943,4687,3408,825" data-currency="USD" data-theme="dark" data-transparent="true"/>
 </div>
     );
   }
