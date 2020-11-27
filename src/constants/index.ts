@@ -35,8 +35,8 @@ export const QUSD = new Token(ChainId.MAINNET, '0xb8c540d00dd0bf76ea12e4b4b95efc
 // export const ETH = new Token(ChainId.MAINNET, '0x2170ed0880ac9a755fd29b2688956bd959f933f8', 18, 'ETH', 'Ethereum Token')
 
 const WETH_ONLY: ChainTokenList = {
-  [ChainId.MAINNET]: [WETH[ChainId.MAINNET]]
-//   [ChainId.BSCTESTNET]: [WETH[ChainId.BSCTESTNET]]
+  [ChainId.MAINNET]: [WETH[ChainId.MAINNET]],
+  [ChainId.BSCTESTNET]: [WETH[ChainId.BSCTESTNET]]
 }
 
 // used to construct intermediary pairs for trading
