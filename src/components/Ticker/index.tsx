@@ -1,7 +1,7 @@
 import React from 'react';
 import {Helmet} from "react-helmet";
 
-const Ticker = props => (
+const Ticker = (
     <div>
     <Helmet>
               <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinMarquee.js" />
