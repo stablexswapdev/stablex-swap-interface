@@ -1,7 +1,7 @@
 import { AriaAttributes, DOMAttributes } from "react";
 
 declare module 'react' {
-  interface HTMLAttributes<div> extends AriaAttributes, DOMAttributes<div> {
+  interface HTMLAttributes<T> extends AriaAttributes, DOMAttributes<T> {
     rel?: string;
     id?: string;
     coin?: string;
