@@ -8,6 +8,6 @@ declare module 'react' {
     currency?: string;
     theme?: string;
     transparent?: string;
-    'show-symbol-logo'?: string;
+//     'show-symbol-logo'?: string;
   }
 };
